@@ -16,5 +16,11 @@ Azure • PowerShell • SQL • ServiceNow • Clotho • DARE
 ## 📈 Outcome
 Improved capacity utilization by 32%, prevented SLA breaches, and optimized workload distribution across shared/private allocations.
 
+## 📘 Summary
+
+This project showcases global capacity optimization efforts across ServiceNow’s infrastructure.  
+By analyzing 1,000+ servers and executing 250+ database conversions, I reclaimed 18% underutilized cloud resources and improved capacity utilization by 32%.  
+The repo includes sanitized automation scripts and architectural notes to illustrate my approach while respecting confidentiality boundaries.
+
 ## 🔒 Confidentiality Notice
 This repo includes sanitized scripts and architectural notes. Sensitive configurations and internal documentation have been omitted per NDA.
