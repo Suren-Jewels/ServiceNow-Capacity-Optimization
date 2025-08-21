@@ -11,7 +11,16 @@
 - Reduced over-provisioning by 20% across dual-tier capacity pools
 
 ## ⚙️ Tech Stack
-Azure • PowerShell • SQL • ServiceNow • Clotho • DARE
+Azure • PowerShell • Puppet • SQL • ServiceNow • Clotho • DARE
+
+## 🧰 Tools & Platforms
+
+- **Azure Monitor** – for capacity metrics and performance analysis  
+- **ServiceNow CMDB** – for asset tracking and workload mapping  
+- **PowerShell** – for automation scripts and server queries  
+- **SQL Server** – for migration planning and data analysis  
+- **Clotho / DARE** – for database conversions and workload transitions  
+- **JIRA** – for tracking optimization tasks and change requests  
 
 ## 📈 Outcome
 Improved capacity utilization by 32%, prevented SLA breaches, and optimized workload distribution across shared/private allocations.
