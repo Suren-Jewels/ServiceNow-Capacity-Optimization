@@ -1,35 +1,107 @@
-# 📊 ServiceNow Global Capacity Optimization
+# 📊 ServiceNow Capacity Optimization  
+**Enterprise Cloud Capacity Engineering • 1,000+ Servers • Performance & Reliability**
 
-**Role**: Senior Cloud Capacity & Infrastructure Engineer  
-**Scope**: 1,000+ servers across 34 PODs (US, CA, EU, AU)  
-**Duration**: Jul 2024 – Oct 2024
+## 📌 Overview
 
-## 🛠️ Contributions
-- Conducted global capacity analysis for 2M+ daily transactions
-- Executed 250+ database server conversions (DARE/Clotho)
-- Reclaimed 18% underutilized cloud resources
-- Reduced over-provisioning by 20% across dual-tier capacity pools
+This repository documents engineering work focused on **capacity optimization, performance tuning, and infrastructure scaling** for large-scale ServiceNow environments.
 
-## ⚙️ Tech Stack
-Azure • PowerShell • Puppet • SQL • ServiceNow • Clotho • DARE
+The work supported global enterprise operations across **1,000+ Linux and Windows servers**, ensuring stable, predictable performance under heavy workloads.
 
-## 🧰 Tools & Platforms
+This project demonstrates senior-level cloud infrastructure engineering, automation, and data-driven optimization.
 
-- **Azure Monitor** – for capacity metrics and performance analysis  
-- **ServiceNow CMDB** – for asset tracking and workload mapping  
-- **PowerShell** – for automation scripts and server queries  
-- **SQL Server** – for migration planning and data analysis  
-- **Clotho / DARE** – for database conversions and workload transitions  
-- **JIRA** – for tracking optimization tasks and change requests  
+---
 
-## 📈 Outcome
-Improved capacity utilization by 32%, prevented SLA breaches, and optimized workload distribution across shared/private allocations.
+## 🎯 Responsibilities & Scope
 
-## 📘 Summary
+- Analyzed compute, memory, and storage utilization across 1,000+ servers
+- Identified bottlenecks and performance degradation patterns
+- Built automation to collect, normalize, and visualize capacity data
+- Recommended scaling strategies for production, staging, and dev environments
+- Collaborated with SRE, Cloud, and ServiceNow platform teams
+- Ensured compliance with enterprise performance and reliability standards
 
-This project showcases global capacity optimization efforts across ServiceNow’s infrastructure.  
-By analyzing 1,000+ servers and executing 250+ database conversions, I reclaimed 18% underutilized cloud resources and improved capacity utilization by 32%.  
-The repo includes sanitized automation scripts and architectural notes to illustrate my approach while respecting confidentiality boundaries.
+---
+
+## 🛠️ Tools & Technologies
+
+- **Operating Systems**: Linux (RHEL, Ubuntu), Windows Server
+- **Platform**: ServiceNow
+- **Scripting & Automation**: Python (data collection & analysis), PowerShell, Shell scripting
+- **Monitoring**: Telemetry systems, monitoring tools
+- **Management**: CMDB, asset management tools
+
+---
+
+## 📈 Capacity Engineering Workflow
+
+1. Collect system metrics (CPU, RAM, I/O, disk, network)
+2. Normalize and aggregate data across 1,000+ nodes
+3. Identify hotspots, saturation points, and underutilized resources
+4. Build capacity models and forecast future demand
+5. Recommend scaling actions (vertical, horizontal, or workload redistribution)
+6. Validate improvements through load testing and telemetry
+7. Document findings and present to engineering leadership
+
+---
+
+## 🧩 Architecture Overview (Sanitized)
+```
++-----------------------------------------------------------+
+|                   ServiceNow Platform                     |
+|   (Application Nodes • MID Servers • Integration Layers)  |
++---------------------------+-------------------------------+
+                            |
+                            v
+                +---------------------------+
+                |   Capacity Data Sources   |
+                | CPU • RAM • Disk • I/O    |
+                | Network • JVM • Logs      |
+                +-------------+-------------+
+                            |
+                            v
+                +---------------------------+
+                |  Data Collection Scripts  |
+                |  Python • PowerShell      |
+                +-------------+-------------+
+                            |
+                            v
+                +---------------------------+
+                |  Aggregation & Analysis   |
+                |  Forecasting Models       |
+                +-------------+-------------+
+                            |
+                            v
+                +---------------------------+
+                |   Recommendations & Ops   |
+                |   Scaling • Tuning        |
+                +---------------------------+
+```
+
+---
+
+## ✅ Key Outcomes
+
+- Improved platform stability and reduced performance incidents
+- Identified and eliminated major capacity bottlenecks
+- Reduced infrastructure waste by optimizing underutilized nodes
+- Enabled predictable scaling for peak workloads
+- Strengthened collaboration between SRE, Cloud, and ServiceNow teams
+
+---
 
 ## 🔒 Confidentiality Notice
-This repo includes sanitized scripts and architectural notes. Sensitive configurations and internal documentation have been omitted per NDA.
+
+All content is fully sanitized.
+
+No internal ServiceNow data, proprietary dashboards, or sensitive operational details are included.
+
+Only high-level engineering concepts and workflows are described.
+
+---
+
+## 📫 Contact
+
+**Suren Jewels**  
+Senior Cloud Engineer | Infrastructure & Security Specialist
+
+*For inquiries about this project or collaboration opportunities, please reach out via LinkedIn.*
