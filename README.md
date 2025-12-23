@@ -41,19 +41,6 @@ This work ensures that compute, memory, storage, and network resources remain he
 
 ---
 
-## 🧩 Challenges Solved
-
-- ✅ Identified CPU, memory, and I/O saturation across 1,000+ servers
-- ✅ Resolved performance degradation caused by JVM heap exhaustion and GC pressure
-- ✅ Normalized inconsistent telemetry data from multiple monitoring systems
-- ✅ Automated capacity reporting to eliminate manual analysis overhead
-- ✅ Detected underutilized nodes and reduced infrastructure waste
-- ✅ Improved forecasting accuracy for peak load periods
-- ✅ Strengthened collaboration between SRE, Cloud, and ServiceNow teams
-- ✅ Built migration planning logic for server consolidation and scaling
-
----
-
 ## 🎯 Responsibilities & Scope
 
 - Analyzed compute, memory, and storage utilization across **1,000+ servers**
@@ -137,6 +124,19 @@ Below is a sanitized architecture diagram representing the capacity optimization
 
 ---
 
+## 🧩 Architecture Layers
+
+| Layer | Purpose | Components |
+|-------|----------|------------|
+| 🧭 User Interaction Layer | Entry point for all ServiceNow requests and workflows | Service Portal, Catalog Items, Request Forms |
+| 🔐 Identity & Access Layer | Validates user identity, RBAC, and SSO attributes | SSO, MFA, IdP, Role Assignments |
+| ⚙️ Workflow Automation Layer | Executes approval chains, provisioning logic, and fulfillment tasks | Flow Designer, Workflows, Business Rules |
+| 🗄️ Data & Record Layer | Stores request data, audit logs, and configuration items | Tables, CMDB, Audit History |
+| 📡 Integration Layer | Connects ServiceNow to external systems and APIs | MID Server, REST APIs, YubiEnterprise API |
+| 📊 Monitoring & Compliance Layer | Tracks request status, SLA adherence, and audit requirements | Dashboards, Reports, SLA Engine |
+
+---
+
 ## 📊 Metrics Analyzed
 
 | Metric Type | Parameters | Threshold Analysis |
@@ -146,6 +146,19 @@ Below is a sanitized architecture diagram representing the capacity optimization
 | **💾 Storage** | Disk I/O<br>Storage capacity<br>Read/write patterns | Performance tuning<br>Growth forecasting |
 | **🌐 Network** | Bandwidth usage<br>Latency<br>Packet loss | Connectivity health<br>Throughput optimization |
 | **☕ Application** | JVM heap<br>Garbage collection<br>Thread pools | Application tuning<br>Performance optimization |
+
+---
+
+## 🔧 Common Troubleshooting Scenarios
+
+| Issue Type | Symptoms | Resolution |
+|------------|----------|------------|
+| 🔐 SSO / MFA Failures | User cannot authenticate or is redirected repeatedly | Validate IdP logs, check SSO attributes, confirm MFA enrollment |
+| 🧭 Catalog Item Issues | Missing fields, broken forms, or incorrect routing | Review form configuration, UI policies, and workflow bindings |
+| ⚙️ Workflow Failures | Approvals not triggering, tasks not generating | Check Flow Designer logs, business rules, and task conditions |
+| 🗄️ Data Integrity Problems | Incorrect CI mapping, missing records | Validate CMDB relationships, fix table permissions, re-run discovery |
+| 📡 Integration Errors | API calls failing, MID Server offline | Check credentials, API endpoints, MID Server health |
+| 📊 SLA / Reporting Gaps | SLAs not updating, dashboards incorrect | Recalculate SLAs, validate report sources, fix time-based conditions |
 
 ---
 
@@ -168,6 +181,17 @@ ServiceNow-Capacity-Optimization/
 
 ---
 
+### 📁 Directory Descriptions
+
+| Directory | Purpose |
+|-----------|---------|
+| `docs/` | High‑level architecture notes, workflow diagrams, and capacity modeling documentation |
+| `dashboards/` | ServiceNow dashboard JSON exports and visualization configurations |
+| `scripts/` | Automation tools for data extraction, metric validation, and capacity analysis |
+| `reports/` | Sanitized capacity reports, trend summaries, and performance insights |
+
+---
+
 ## 📁 Key Files & Resources
 
 | File | Description |
@@ -176,6 +200,34 @@ ServiceNow-Capacity-Optimization/
 | [confidentiality_note.md](https://github.com/Suren-Jewels/ServiceNow-Capacity-Optimization/blob/main/docs/confidentiality_note.md) | NDA compliance and sanitization notice |
 | [capacity_analysis.ps1](https://github.com/Suren-Jewels/ServiceNow-Capacity-Optimization/blob/main/scripts/capacity_analysis.ps1) | PowerShell automation for capacity analysis |
 | [server_migration_plan.sql](https://github.com/Suren-Jewels/ServiceNow-Capacity-Optimization/blob/main/scripts/server_migration_plan.sql) | Migration planning and consolidation logic |
+
+---
+
+## 🧩 Engineering Challenges Solved
+
+- ✅ Identified CPU, memory, and I/O saturation across 1,000+ servers
+- ✅ Resolved performance degradation caused by JVM heap exhaustion and GC pressure
+- ✅ Normalized inconsistent telemetry data from multiple monitoring systems
+- ✅ Automated capacity reporting to eliminate manual analysis overhead
+- ✅ Detected underutilized nodes and reduced infrastructure waste
+- ✅ Improved forecasting accuracy for peak load periods
+- ✅ Strengthened collaboration between SRE, Cloud, and ServiceNow teams
+- ✅ Built migration planning logic for server consolidation and scaling
+
+---
+
+## 🚀 Deployment Workflow
+
+| Stage | Description |
+|-------|-------------|
+| 1. Environment Preparation | Validate ServiceNow instance health, user roles, and integration credentials before deployment |
+| 2. Data Source Configuration | Set up metric sources, MID Server connections, and ingestion schedules for capacity data |
+| 3. Dashboard & Report Deployment | Import dashboards, configure widgets, and validate data bindings for accuracy |
+| 4. Workflow & Automation Setup | Enable Flow Designer logic, scheduled jobs, and automation rules supporting capacity insights |
+| 5. Metric Validation | Run data quality checks, confirm metric freshness, and validate trend accuracy across environments |
+| 6. Integration Testing | Validate API calls, MID Server communication, and external system data ingestion |
+| 7. Performance Review | Confirm dashboard load times, SLA adherence, and reporting responsiveness |
+| 8. Documentation & Handoff | Update operational runbooks, dashboard references, and troubleshooting procedures |
 
 ---
 
