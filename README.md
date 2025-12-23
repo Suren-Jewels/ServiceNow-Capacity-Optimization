@@ -41,6 +41,19 @@ This work ensures that compute, memory, storage, and network resources remain he
 
 ---
 
+## 🧩 Engineering Challenges Solved
+
+- ✅ Identified CPU, memory, and I/O saturation across 1,000+ servers
+- ✅ Resolved performance degradation caused by JVM heap exhaustion and GC pressure
+- ✅ Normalized inconsistent telemetry data from multiple monitoring systems
+- ✅ Automated capacity reporting to eliminate manual analysis overhead
+- ✅ Detected underutilized nodes and reduced infrastructure waste
+- ✅ Improved forecasting accuracy for peak load periods
+- ✅ Strengthened collaboration between SRE, Cloud, and ServiceNow teams
+- ✅ Built migration planning logic for server consolidation and scaling
+
+---
+
 ## 🎯 Responsibilities & Scope
 
 - Analyzed compute, memory, and storage utilization across **1,000+ servers**
@@ -200,19 +213,6 @@ ServiceNow-Capacity-Optimization/
 | [confidentiality_note.md](https://github.com/Suren-Jewels/ServiceNow-Capacity-Optimization/blob/main/docs/confidentiality_note.md) | NDA compliance and sanitization notice |
 | [capacity_analysis.ps1](https://github.com/Suren-Jewels/ServiceNow-Capacity-Optimization/blob/main/scripts/capacity_analysis.ps1) | PowerShell automation for capacity analysis |
 | [server_migration_plan.sql](https://github.com/Suren-Jewels/ServiceNow-Capacity-Optimization/blob/main/scripts/server_migration_plan.sql) | Migration planning and consolidation logic |
-
----
-
-## 🧩 Engineering Challenges Solved
-
-- ✅ Identified CPU, memory, and I/O saturation across 1,000+ servers
-- ✅ Resolved performance degradation caused by JVM heap exhaustion and GC pressure
-- ✅ Normalized inconsistent telemetry data from multiple monitoring systems
-- ✅ Automated capacity reporting to eliminate manual analysis overhead
-- ✅ Detected underutilized nodes and reduced infrastructure waste
-- ✅ Improved forecasting accuracy for peak load periods
-- ✅ Strengthened collaboration between SRE, Cloud, and ServiceNow teams
-- ✅ Built migration planning logic for server consolidation and scaling
 
 ---
 
