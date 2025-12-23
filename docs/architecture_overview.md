@@ -1,16 +1,67 @@
-# 🧱 Architecture Overview
+# Architecture Summary
 
-This document provides a high‑level overview of the global ServiceNow capacity architecture spanning 34 PODs across distributed data centers. The system is designed to ensure predictable performance, balanced resource utilization, and scalable growth across thousands of application nodes.
+This document provides a high-level overview of the architecture used to analyze, forecast, and optimize ServiceNow platform capacity across enterprise environments. All information is fully sanitized and focuses on conceptual structure rather than proprietary implementation details.
 
-The architecture incorporates:
-- Global Capacity Pools that group compute, memory, and storage resources across PODs
-- Dual‑Tier Allocation Strategies separating baseline capacity from dynamic, demand‑driven expansion
-- Workload Balancing Logic that distributes load across nodes based on utilization thresholds, saturation points, and performance indicators
-- Automated Migration Triggers that initiate node redistribution, vertical scaling, or horizontal expansion when capacity thresholds are exceeded
-- Telemetry‑Driven Forecasting Models that predict future demand based on historical trends, workload patterns, and seasonal spikes
-- Cross‑POD Redundancy to maintain resilience and ensure continuity during maintenance or unexpected load surges
-This architecture enables ServiceNow environments to maintain stability across 1,000+ Linux and Windows servers, ensuring that compute, memory, storage, and network resources remain aligned with real‑time demand.
-All diagrams, internal topology, and proprietary allocation logic have been intentionally omitted to comply with confidentiality requirements.
+---
 
-If you want, I can also generate a matching System Summary or refine the /doc/architecture_overview.md file to match this tone.
+## 🧱 Core Architectural Components
 
+### **ServiceNow Platform Nodes**
+Application and MID servers responsible for workflow execution, API handling, and background job processing.
+
+### **Capacity Analytics Engine**
+Python- and PowerShell-based tooling used to collect performance metrics, model capacity trends, and identify bottlenecks.
+
+### **Data Collection Layer**
+- Instance performance logs  
+- Node CPU/memory utilization  
+- Workflow execution metrics  
+- Database query performance  
+
+### **Visualization Layer**
+- Capacity dashboards  
+- Trend forecasting charts  
+- Real-time utilization monitors  
+
+### **Security Layer**
+- RBAC-controlled API access  
+- Encrypted metric storage  
+- Compliance-aligned data handling  
+
+---
+
+## 🔄 Architecture Flow (High-Level)
+📊 ServiceNow — Capacity Optimization Architecture
+
+### Components
+• Platform nodes  
+• MID servers  
+• Metric collectors  
+• Forecasting engine  
+• Visualization dashboards  
+• Alerting and reporting stack  
+
+### Flow
+1. Metric collectors pull performance data from ServiceNow  
+2. Data is normalized and fed into the analytics engine  
+3. Forecasting models identify saturation risks  
+4. Dashboards visualize trends and capacity thresholds  
+5. Alerts notify teams of upcoming resource constraints  
+
+---
+
+## 🧩 Architectural Intent
+
+The architecture is designed to ensure:
+
+- Predictable platform performance under varying workloads  
+- Early detection of capacity risks  
+- Data-driven scaling decisions  
+- Improved user experience through proactive optimization  
+- Compliance with enterprise security and data governance standards  
+
+---
+
+## 🔒 Confidentiality Notice
+
+Detailed diagrams, internal instance topology, and proprietary ServiceNow configurations are intentionally omitted to maintain confidentiality. This summary reflects only high-level architectural concepts.
