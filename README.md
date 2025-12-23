@@ -131,6 +131,12 @@ Below is a sanitized architecture diagram representing the capacity optimization
 
 ---
 
+### 📷 Visual Architecture Diagram (PNG)
+
+![Capacity Optimization Architecture]([https://github.com/Suren-Jewels/Federal-Security-Support/blob/main/Color-coded_IL4-IL5.png?raw=true](https://github.com/Suren-Jewels/ServiceNow-Capacity-Optimization/blob/main/Capacity_Optimization_Architecture.png))
+
+---
+
 ## 📊 Metrics Analyzed
 
 | Metric Type | Parameters | Threshold Analysis |
