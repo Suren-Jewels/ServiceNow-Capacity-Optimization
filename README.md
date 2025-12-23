@@ -153,7 +153,7 @@ Below is a sanitized architecture diagram representing the capacity optimization
 ```
 ServiceNow-Capacity-Optimization/
 │
-├── doc/
+├── docs/
 │   ├── architecture_overview.md        # Sanitized architecture documentation
 │   └── confidentiality_note.md         # NDA-aligned disclaimer
 │
@@ -172,11 +172,10 @@ ServiceNow-Capacity-Optimization/
 
 | File | Description |
 |------|-------------|
-| `/doc/architecture_overview.md` | Detailed system architecture documentation |
-| `/doc/confidentiality_note.md` | NDA compliance and sanitization notice |
-| `/scripts/capacity_analysis.ps1` | PowerShell automation for capacity analysis |
-| `/scripts/server_migration_plan.sql` | Migration planning and consolidation logic |
-| `Capacity_Optimization_Architecture.png` | Visual system architecture diagram |
+| [architecture_overview.md](https://github.com/Suren-Jewels/ServiceNow-Capacity-Optimization/blob/main/docs/architecture_overview.md) | Detailed system architecture documentation |
+| [confidentiality_note.md](https://github.com/Suren-Jewels/ServiceNow-Capacity-Optimization/blob/main/docs/confidentiality_note.md) | NDA compliance and sanitization notice |
+| [capacity_analysis.ps1](https://github.com/Suren-Jewels/ServiceNow-Capacity-Optimization/blob/main/scripts/capacity_analysis.ps1) | PowerShell automation for capacity analysis |
+| [server_migration_plan.sql](https://github.com/Suren-Jewels/ServiceNow-Capacity-Optimization/blob/main/scripts/server_migration_plan.sql) | Migration planning and consolidation logic |
 
 ---
 
