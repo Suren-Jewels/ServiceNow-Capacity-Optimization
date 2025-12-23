@@ -94,6 +94,17 @@ This work ensures that compute, memory, storage, and network resources remain he
 
 ---
 
+## 🚀 Key Achievements
+
+| Metric | Achievement | Impact |
+|--------|-------------|--------|
+| 📊 Capacity Forecasting | Built automated ServiceNow capacity models | Prevented outages and improved resource planning |
+| 💰 Cost Efficiency | Identified unused or oversized workloads | Reduced operational costs across environments |
+| ⚙️ Performance Stability | Tuned platform components for peak load | Improved response times and user experience |
+| 🔍 Visibility | Created dashboards for real‑time capacity insights | Enabled proactive decision‑making for operations teams |
+
+---
+
 ## 🧩 Architecture Overview
 
 Below is a sanitized architecture diagram representing the capacity optimization workflow:
