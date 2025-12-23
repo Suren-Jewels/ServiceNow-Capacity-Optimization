@@ -162,6 +162,20 @@ Below is a sanitized architecture diagram representing the capacity optimization
 
 ---
 
+## 🔐 Authentication Workflow
+
+| Step | Action | Purpose |
+|------|--------|----------|
+| 1 | User authenticates through SSO with MFA enforced by the identity provider | Ensures secure, verified access to the ServiceNow platform |
+| 2 | ServiceNow receives user attributes and roles from the IdP | Establishes RBAC, group membership, and access scope |
+| 3 | Platform validates session integrity and user permissions | Confirms the user can access catalog items, dashboards, and workflows |
+| 4 | Workflow or catalog request triggers identity‑based logic | Ensures approvals, tasks, and automation follow correct access rules |
+| 5 | API calls or MID Server actions authenticate using scoped credentials | Protects integrations and enforces least‑privilege access |
+| 6 | Audit logs capture authentication, role evaluation, and workflow execution | Provides traceability for compliance and troubleshooting |
+| 7 | Session monitoring evaluates activity, SLA adherence, and anomalies | Supports operational visibility and security posture |
+
+---
+
 ## 🔧 Common Troubleshooting Scenarios
 
 | Issue Type | Symptoms | Resolution |
