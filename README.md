@@ -34,7 +34,7 @@ This project demonstrates senior-level cloud infrastructure engineering, automat
 | **📊 Monitoring** | Telemetry systems<br>Monitoring tools | Real-time performance metrics |
 | **📋 Management** | CMDB<br>Asset management tools | Configuration tracking and inventory |
 
-───────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────
 
 ## 🧠 System Summary
 
@@ -61,7 +61,7 @@ This work ensures that compute, memory, storage, and network resources remain he
 - Reduced operational costs
 - Support for mission-critical business functions
 
-───────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────
 
 ## 🧩 Architecture Overview
 
@@ -123,7 +123,7 @@ Below is a sanitized architecture diagram representing the capacity optimization
 | **🌐 Network** | Bandwidth usage<br>Latency<br>Packet loss | Connectivity health<br>Throughput optimization |
 | **☕ Application** | JVM heap<br>Garbage collection<br>Thread pools | Application tuning<br>Performance optimization |
 
-───────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────
 
 ## 🔐 Authentication Workflow
 
@@ -164,7 +164,7 @@ Below is a sanitized architecture diagram representing the capacity optimization
 | 📡 Integration Errors | API calls failing, MID Server offline | Check credentials, API endpoints, MID Server health |
 | 📊 SLA / Reporting Gaps | SLAs not updating, dashboards incorrect | Recalculate SLAs, validate report sources, fix time-based conditions |
 
-───────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────
 
 ## 🚀 Deployment Workflow
 
@@ -215,7 +215,7 @@ Below is a sanitized architecture diagram representing the capacity optimization
 - ✅ Strengthened collaboration between SRE, Cloud, and ServiceNow teams
 - ✅ Built migration planning logic for server consolidation and scaling
 
-───────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────
 
 ## 🗂️ Repository Structure
 ```
@@ -254,7 +254,7 @@ ServiceNow-Capacity-Optimization/
 | [capacity_analysis.ps1](https://github.com/Suren-Jewels/ServiceNow-Capacity-Optimization/blob/main/scripts/capacity_analysis.ps1) | PowerShell automation for capacity analysis |
 | [server_migration_plan.sql](https://github.com/Suren-Jewels/ServiceNow-Capacity-Optimization/blob/main/scripts/server_migration_plan.sql) | Migration planning and consolidation logic |
 
-───────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────
 
 ## 🔒 Confidentiality Notice
 
@@ -273,6 +273,8 @@ All proprietary information remains confidential per NDA requirements.
 
 **Suren Jewels**  
 Senior Cloud Engineer | Infrastructure & Security Specialist
+
+────────────────────────────────────────────────────────────────────────
 
 *For inquiries about this project or collaboration opportunities, please reach out via LinkedIn.*
 
