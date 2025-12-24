@@ -1,4 +1,4 @@
-# 📊 ServiceNow Capacity Optimization  
+# 📊 ServiceNow Capacity Optimization Framework
 
 **Automated analytics, forecasting, and operational insights for mission‑critical ServiceNow environments**
 
