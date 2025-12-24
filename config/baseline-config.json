@@ -1,0 +1,22 @@
+{
+  "instance_url": "https://your-instance.service-now.com",
+  "username": "your-username",
+  "password": "your-password",
+
+  "api_endpoints": {
+    "node_metrics": "/api/now/table/x_capacity_node_metrics",
+    "workflow_metrics": "/api/now/table/x_capacity_workflow_metrics",
+    "query_performance": "/api/now/table/x_capacity_query_stats"
+  },
+
+  "collection": {
+    "interval_minutes": 15,
+    "max_records_per_page": 500
+  },
+
+  "storage": {
+    "raw_data_path": "data/raw",
+    "normalized_data_path": "data/normalized",
+    "forecast_data_path": "data/forecast"
+  }
+}
