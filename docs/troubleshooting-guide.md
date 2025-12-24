@@ -1,6 +1,19 @@
-# Troubleshooting Guide
+# 🛠️ Troubleshooting Guide
 
 This guide provides common issues, root causes, and resolution steps for the ServiceNow Capacity Optimization tooling. All content is fully sanitized and reflects generalized engineering patterns.
+
+---
+
+## 🔧 Common Troubleshooting Scenarios
+
+| Issue Type | Symptoms | Resolution |
+|------------|----------|------------|
+| 🔐 SSO / MFA Failures | User cannot authenticate or is redirected repeatedly | Validate IdP logs, check SSO attributes, confirm MFA enrollment |
+| 🧭 Catalog Item Issues | Missing fields, broken forms, or incorrect routing | Review form configuration, UI policies, and workflow bindings |
+| ⚙️ Workflow Failures | Approvals not triggering, tasks not generating | Check Flow Designer logs, business rules, and task conditions |
+| 🗄️ Data Integrity Problems | Incorrect CI mapping, missing records | Validate CMDB relationships, fix table permissions, re-run discovery |
+| 📡 Integration Errors | API calls failing, MID Server offline | Check credentials, API endpoints, MID Server health |
+| 📊 SLA / Reporting Gaps | SLAs not updating, dashboards incorrect | Recalculate SLAs, validate report sources, fix time-based conditions |
 
 ---
 
