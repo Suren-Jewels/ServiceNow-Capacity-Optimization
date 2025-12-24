@@ -1,14 +1,7 @@
-<div align="center">
+<# 📊 ServiceNow Capacity Optimization Toolkit  
+**Automated analytics, forecasting, and operational insights for mission‑critical ServiceNow environments**
 
-# 📊 ServiceNow Capacity Optimization Toolkit  
-### **Automated analytics, forecasting, and operational insights for mission‑critical ServiceNow environments**
-
-A sanitized, enterprise‑grade engineering toolkit demonstrating  
-**API automation**, **capacity forecasting**, **cross‑platform scripting**, and **operational excellence**.
-
----
-
-</div>
+A sanitized engineering toolkit demonstrating API automation, capacity forecasting, and cross‑platform operational workflows.
 
 ---
 
