@@ -1,4 +1,4 @@
-# 🧩 Architecture Layers
+# 📚 Architecture Layers
 
 This document breaks down the ServiceNow architecture into logical layers. Each layer represents a functional boundary within the system, enabling clear separation of responsibilities, maintainability, and scalable growth.
 
