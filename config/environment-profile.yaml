@@ -1,0 +1,23 @@
+# Environment Profile (Sanitized)
+# Defines environment-specific overrides for ServiceNow capacity tooling.
+
+environment: "dev"
+
+instance:
+  name: "dev-instance"
+  url: "https://dev-instance.service-now.com"
+
+collection:
+  interval_minutes: 10
+  enable_debug_logging: true
+
+thresholds:
+  cpu_warning: 60
+  cpu_critical: 80
+  ram_warning: 65
+  ram_critical: 85
+
+storage:
+  raw_data_path: "data/raw/dev"
+  normalized_data_path: "data/normalized/dev"
+  forecast_data_path: "data/forecast/dev"
