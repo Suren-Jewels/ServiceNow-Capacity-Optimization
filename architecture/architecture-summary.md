@@ -1,4 +1,4 @@
-# Architecture Summary  
+# 📘 Architecture Summary  
 **Multi‑Site UPS, Network, and IT/OT Infrastructure Upgrade**
 
 This document provides a high‑level architectural summary of the modernization program executed across ~10 UPS facilities in the Northwestern United States.
