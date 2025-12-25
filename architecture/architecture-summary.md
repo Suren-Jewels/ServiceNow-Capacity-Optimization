@@ -1,67 +1,43 @@
-# Architecture Summary
+# Architecture Summary  
+**Multi‑Site UPS, Network, and IT/OT Infrastructure Upgrade**
 
-This document provides a high-level overview of the architecture used to analyze, forecast, and optimize ServiceNow platform capacity across enterprise environments. All information is fully sanitized and focuses on conceptual structure rather than proprietary implementation details.
-
----
-
-## 🧱 Core Architectural Components
-
-### **ServiceNow Platform Nodes**
-Application and MID servers responsible for workflow execution, API handling, and background job processing.
-
-### **Capacity Analytics Engine**
-Python- and PowerShell-based tooling used to collect performance metrics, model capacity trends, and identify bottlenecks.
-
-### **Data Collection Layer**
-- Instance performance logs  
-- Node CPU/memory utilization  
-- Workflow execution metrics  
-- Database query performance  
-
-### **Visualization Layer**
-- Capacity dashboards  
-- Trend forecasting charts  
-- Real-time utilization monitors  
-
-### **Security Layer**
-- RBAC-controlled API access  
-- Encrypted metric storage  
-- Compliance-aligned data handling  
+This document provides a high‑level architectural summary of the modernization program executed across ~10 UPS facilities in the Northwestern United States.
 
 ---
 
-## 🔄 Architecture Flow (High-Level)
-📊 ServiceNow — Capacity Optimization Architecture
-
-### Components
-• Platform nodes  
-• MID servers  
-• Metric collectors  
-• Forecasting engine  
-• Visualization dashboards  
-• Alerting and reporting stack  
-
-### Flow
-1. Metric collectors pull performance data from ServiceNow  
-2. Data is normalized and fed into the analytics engine  
-3. Forecasting models identify saturation risks  
-4. Dashboards visualize trends and capacity thresholds  
-5. Alerts notify teams of upcoming resource constraints  
+## 🏢 Program Scope
+- Facility‑wide UPS replacement and battery modernization  
+- Distributed deployment across multi‑state logistics centers  
+- Wi‑Fi expansion and RF redesign  
+- VoIP migration from legacy PBX to SIP  
+- Security camera (CCTV/IP) upgrades  
+- Printer standardization and queue consolidation  
+- SICK laser and encoder maintenance (OT systems)  
+- Server, PC, and laptop provisioning  
+- Remote support and HR onboarding/offboarding workflows  
 
 ---
 
-## 🧩 Architectural Intent
+## 🧩 Architectural Themes
+- **Standardization**: Repeatable deployment kits and templates  
+- **Zero Downtime**: Staged cutovers and controlled maintenance windows  
+- **Telemetry**: SNMP‑based UPS monitoring and alerting  
+- **Scalability**: Multi‑site rollout with consistent configuration  
+- **Security**: VLAN segmentation, access control, and device hardening  
 
-The architecture is designed to ensure:
+---
 
-- Predictable platform performance under varying workloads  
-- Early detection of capacity risks  
-- Data-driven scaling decisions  
-- Improved user experience through proactive optimization  
-- Compliance with enterprise security and data governance standards  
+## 🗺️ Multi‑Site Strategy
+Each facility followed a unified modernization blueprint:
+
+1. Assess existing UPS, network, and device readiness  
+2. Deploy standardized UPS hardware and monitoring profiles  
+3. Upgrade Wi‑Fi and network infrastructure  
+4. Migrate voice systems to VoIP  
+5. Implement monitoring and telemetry  
+6. Validate and document site readiness  
 
 ---
 
 ## 🔒 Confidentiality Notice
-
-Detailed diagrams, internal instance topology, and proprietary ServiceNow configurations are intentionally omitted to maintain confidentiality. This summary reflects only high-level architectural concepts.
+All architectural details are sanitized and generalized for portfolio demonstration.
