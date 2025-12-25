@@ -11,20 +11,12 @@ This project delivers an automated pipeline for collecting, normalizing, and for
 
 ---
 
-## ⚡ Quick Start  
-```bash
-# 1. Collect metrics
-python scripts/collect-metrics.py
+## ⚡ Quick Start
 
-# 2. Normalize data
-python scripts/data-normalization.py
-
-# 3. Generate forecasts
-python scripts/forecasting-engine.py
-
-# 4. Run full pipeline (Windows)
-.\scripts\job-runner.ps1
-```
+- Explore [`architecture/`](architecture/) for system diagrams, workflow routing, and identity flow breakdowns  
+- See [`docs/`](docs/) for ServiceNow catalog flows, troubleshooting, deployment notes, and data dictionary  
+- Review [`scripts/`](scripts/) for automation supporting request flows, identity validation, and audit extraction  
+- Check [`config/`](config/) for sanitized templates covering routing logic, posture baselines, and access policy definitions
 
 ---
 
