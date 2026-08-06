@@ -176,8 +176,8 @@ Cloud & Infrastructure Engineer • Security & Automation Specialist
 
 This repository showcases sanitized engineering patterns and automation workflows used in enterprise ServiceNow environments.
 
-- **LinkedIn:** [https://www.linkedin.com/in/suren-jewels/](https://www.linkedin.com/in/suren-jewels/)
-- **GitHub:** [https://github.com/Suren-Jewels](https://github.com/Suren-Jewels)
-- **Email:** [SurenJewelsPro@gmail.com](mailto:SurenJewelsPro@gmail.com)
+- **LinkedIn:** [https://www.LinkedIn.com/in/SurenA-Jewels/](https://www.LinkedIn.com/in/SurenA-Jewels/)
+- **GitHub:** [https://GitHub.com/SurenA-Jewels](https://GitHub.com/SurenA-Jewels)
+- **Email:** [SurenA.Jewels@gmail.com](mailto:SurenA.Jewels@gmail.com)
 
 ---
