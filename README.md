@@ -171,7 +171,7 @@ No internal instance names, credentials, workflow IDs, or proprietary ServiceNow
 
 ## 👔 Professional Context  
 
-**Suren Jewels**  
+**Suren A. Jewels**  
 Cloud & Infrastructure Engineer • Security & Automation Specialist  
 
 This repository showcases sanitized engineering patterns and automation workflows used in enterprise ServiceNow environments.
